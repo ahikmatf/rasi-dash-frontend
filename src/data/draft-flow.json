@@ -1,0 +1,182 @@
+{
+    "data": [
+        {
+            "flow-id": 123,
+            "class-name": "UX Prototyping Workshop",
+            "class-type": "Workshop",
+            "is-completed": false,
+            "is-class-new": true,
+            "flow-process": [
+                {
+                    "step-order": 1,
+                    "step-name": "planning",
+                    "step-duration": 10,
+                    "step-items": [
+                        {
+                            "item-order": 1,
+                            "item-name": "penentuan tema",
+                            "is-completed": false,
+                            "item-state": "sprint",
+                            "item-details": "",
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "step-order": 2,
+                    "step-name": "production",
+                    "step-duration": 20,
+                    "step-items": [
+                        {
+                            "item-order": 1,
+                            "item-name": "kurikulum making",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "deck making",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "requirements brief",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "module making",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "presentation slide making",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "step-order": 3,
+                    "step-name": "operation",
+                    "step-duration": 20,
+                    "step-items": [
+                        {
+                            "item-order": 1,
+                            "item-name": "approach pembicara",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "approach vendor",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "TOR making",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "brief pembicara",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "dealing vendor",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "execution plan",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "after event formula",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        }
+                    ]
+                },
+                {
+                    "step-order": 4,
+                    "step-name": "marketing",
+                    "step-duration": 20,
+                    "step-items": [
+                        {
+                            "item-order": 1,
+                            "item-name": "promotional kit",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "content deployment",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "a/b testing",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "ads placement",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "partner posting",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "sales promotion",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        },
+                        {
+                            "item-order": 1,
+                            "item-name": "after event activity",
+                            "is-completed": false,
+                            "item-details": "sprint-validasi-seleksi-jadwal",
+                            "notes": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

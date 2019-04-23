@@ -1,25 +1,55 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Navbar from 'react-bulma-components/lib/components/navbar';
+import Home from './pages/home'
+import SOPChecklist from './pages/sop-checklist'
+import './App.scss';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
+        <Router>
+          <header>
+            <Navbar
+              color=""
+              fixed="top"
+              active="false"
+              transparent="true"
+            >
+              <Navbar.Brand>
+                <Navbar.Item renderAs="a" href="#">
+                  <img
+                    src="https://bulma.io/images/bulma-logo.png"
+                    alt="Bulma: a modern CSS framework based on Flexbox"
+                    width="112"
+                    height="28"
+                  />
+                </Navbar.Item>
+                
+              </Navbar.Brand>
+              <Navbar.Menu>
+                <Navbar.Container>
+                  <Navbar.Item>
+                    <Link to="/">Home</Link>
+                  </Navbar.Item>
+                  <Navbar.Item>
+                    <Link to="/sop-checklist">SOP Checklist</Link>
+                  </Navbar.Item>
+                </Navbar.Container>
+                <Navbar.Container position="end">
+                  <Navbar.Item href="#">BOOM</Navbar.Item>
+                </Navbar.Container>
+              </Navbar.Menu>
+            </Navbar>
+          </header>
+
+          <body>
+            <Route exact path="/" component={Home} />
+            <Route exact path="/sop-checklist" component={SOPChecklist} />            
+          </body>
+
+        </Router>
       </div>
     );
   }
