@@ -11,11 +11,7 @@ export default class SOPChecklist extends Component {
     return (
       <div>
         SOPChecklist
-        <Columns>
-          <Columns.Column>
-            <ClassCard />
-          </Columns.Column>
-        </Columns>
+        <ClassCard/>
         { console.log(data) }
       </div>
     )
