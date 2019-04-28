@@ -12,10 +12,10 @@ class App extends Component {
         <Router>
           <header>
             <Navbar
-              color=""
+              color={null}
               fixed="top"
-              active="false"
-              transparent="true"
+              active={false}
+              transparent={true}
             >
               <Navbar.Brand>
                 <Navbar.Item renderAs="a" href="#">

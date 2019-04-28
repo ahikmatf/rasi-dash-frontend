@@ -1,45 +1,55 @@
-import React, { Component, StyleSheet } from 'react'
+import React, { Component } from 'react'
 
 import Columns from 'react-bulma-components/lib/components/columns'
 import Card from 'react-bulma-components/lib/components/card';
-import Media from 'react-bulma-components/lib/components/media';
 import Heading from 'react-bulma-components/lib/components/heading'
-import Image from 'react-bulma-components/lib/components/image';
 import Content from 'react-bulma-components/lib/components/content';
 
-import Switch from "react-switch";
-
-import '../styles/Card.css'
+import Slider from 'rc-slider';
+import 'rc-slider/assets/index.css';
 
 export default class ClassCard extends Component {
     constructor() {
         super();
-        this.state = { checked: false };
+        this.state = { 
+            checked: false,
+            volume: 0,
+        };
         this.handleChange = this.handleChange.bind(this);
+        
     }
 
     handleChange(checked) {
         this.setState({ checked });
     }
+    
+    handleOnChange = (value) => {
+        this.setState({
+          volume: value
+        })
+      }
 
   render() {
     return (
         <Columns>
             <Columns.Column size={3}>
-            <Card className={this.state.checked?'card-production':''}>
+            <Card className={this.state.checked ? 'card-production' : ''}>
                 <Card.Header>
-                    <Media className="sop-item-card-header">
+                    {/* <Media className="sop-item-card-header">
                         <Media.Item className="sop-item-card-title">
                             <Card.Header.Title>2 Days Left</Card.Header.Title>
                         </Media.Item>
                         <Media.Item className="sop-item-card-switch">
-                            <Switch
-                                onChange={this.handleChange}
-                                checked={this.state.checked}
-                                id="normal-switch"
-                            />
                         </Media.Item>
-                    </Media>
+                    </Media> */}
+                    <Slider 
+                        max={3} 
+                        defaultValue={0} 
+                        marks={{ 0: "halt", 1: "draft", 2: "on-progress", 3: "done" }} 
+                        step={null} 
+                        trackStyle={{ backgroundColor: 'white'}}
+                        onChange={this.handleOnChange}
+                    />
                 </Card.Header>
                 
                 <Card.Content>
