@@ -1,0 +1,62 @@
+{
+    "information": {
+        "step-name": "marketing",  
+        "step-order": 3,
+        "step-duration": 15
+    },
+    "data": {
+        "1": {
+            "step-items": {
+                "1": {
+                    "item-order": 1,
+                    "item-name": "promotional kit",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "2": {
+                    "item-order": 1,
+                    "item-name": "content deployment",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "3": {
+                    "item-order": 1,
+                    "item-name": "a/b testing",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "4": {
+                    "item-order": 1,
+                    "item-name": "ads placement",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "5": {
+                    "item-order": 1,
+                    "item-name": "partner posting",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "6": {
+                    "item-order": 1,
+                    "item-name": "sales promotion",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "7": {
+                    "item-order": 1,
+                    "item-name": "after event activity",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                }
+            }
+        }
+    }
+}

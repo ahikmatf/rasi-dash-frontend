@@ -1,0 +1,40 @@
+{
+    "data": {
+        "1": {
+            "class-id": 1,
+            "class-name": "UX Prototyping Workshop",
+            "class-type": "Workshop",
+            "class-topic": "PeopleInc",
+            "is-completed": false,
+            "is-class-new": true,
+            "class-date": "2008-11-11 13:23:44",
+            "creation-start": "2008-11-11 13:23:44",
+            "current-state": "production",
+            "status": "late"
+        },
+        "2": {
+            "class-id": 2,
+            "class-name": "Creative Problem Solving",
+            "class-type": "Workshop",
+            "class-topic": "PeopleInc",
+            "is-completed": false,
+            "is-class-new": true,
+            "class-date": "2008-11-11 13:23:44",
+            "creation-start": "2008-11-11 13:23:44",
+            "current-state": "production",
+            "status": "late"
+        },
+        "3": {
+            "class-id": 3,
+            "class-name": "Digital Content Creation",
+            "class-type": "Workshop",
+            "class-topic": "PeopleInc",
+            "is-completed": false,
+            "is-class-new": true,
+            "class-date": "2008-11-11 13:23:44",
+            "creation-start": "2008-11-11 13:23:44",
+            "current-state": "production",
+            "status": "late"
+        }
+    }
+}

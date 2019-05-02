@@ -1,0 +1,168 @@
+{
+    "information": {
+        "step-name": "operation",  
+        "step-order": 2,
+        "step-duration": 15
+    },
+    "data": {
+        "1": {
+            "step-items": {
+                "1": {
+                    "item-order": 1,
+                    "item-name": "approach pembicara",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "2": {
+                    "item-order": 1,
+                    "item-name": "approach vendor",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "3": {
+                    "item-order": 1,
+                    "item-name": "TOR making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "4": {
+                    "item-order": 1,
+                    "item-name": "brief pembicara",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "5": {
+                    "item-order": 1,
+                    "item-name": "dealing vendor",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "6": {
+                    "item-order": 1,
+                    "item-name": "execution plan",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "7": {
+                    "item-order": 1,
+                    "item-name": "after event formula",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                }
+            }
+        },
+        "2": {
+            "step-items": {
+                "1": {
+                    "item-order": 1,
+                    "item-name": "approach pembicara",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "2": {
+                    "item-order": 1,
+                    "item-name": "approach vendor",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "3": {
+                    "item-order": 1,
+                    "item-name": "TOR making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "4": {
+                    "item-order": 1,
+                    "item-name": "brief pembicara",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "5": {
+                    "item-order": 1,
+                    "item-name": "dealing vendor",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "6": {
+                    "item-order": 1,
+                    "item-name": "execution plan",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "7": {
+                    "item-order": 1,
+                    "item-name": "after event formula",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                }
+            }
+        },
+        "3": {
+            "step-items": {
+                "1": {
+                    "item-order": 1,
+                    "item-name": "approach pembicara",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "2": {
+                    "item-order": 1,
+                    "item-name": "approach vendor",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "3": {
+                    "item-order": 1,
+                    "item-name": "TOR making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "4": {
+                    "item-order": 1,
+                    "item-name": "brief pembicara",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "5": {
+                    "item-order": 1,
+                    "item-name": "dealing vendor",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "6": {
+                    "item-order": 1,
+                    "item-name": "execution plan",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "7": {
+                    "item-order": 1,
+                    "item-name": "after event formula",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                }
+            }
+        }
+    }
+}

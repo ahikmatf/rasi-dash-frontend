@@ -1,0 +1,126 @@
+{
+    "information": {
+        "step-name": "production",  
+        "step-order": 1,
+        "step-duration": 20
+    },
+    "data": {
+        "1": {
+            "step-items": {
+                "1": {
+                    "item-order": 1,
+                    "item-name": "kurikulum making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "2": {
+                    "item-order": 1,
+                    "item-name": "deck making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "3": {                
+                    "item-order": 1,
+                    "item-name": "requirements brief",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "4": {
+                    "item-order": 1,
+                    "item-name": "module making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "5": {
+                    "item-order": 1,
+                    "item-name": "presentation slide making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                }
+            }
+        },
+        "2": {
+            "step-items": {
+                "1": {
+                    "item-order": 1,
+                    "item-name": "kurikulum making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "2": {
+                    "item-order": 1,
+                    "item-name": "deck making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "3": {                
+                    "item-order": 1,
+                    "item-name": "requirements brief",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "4": {
+                    "item-order": 1,
+                    "item-name": "module making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "5": {
+                    "item-order": 1,
+                    "item-name": "presentation slide making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                }
+            }
+        },
+        "3": {
+            "step-items": {
+                "1": {
+                    "item-order": 1,
+                    "item-name": "kurikulum making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "2": {
+                    "item-order": 1,
+                    "item-name": "deck making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "3": {                
+                    "item-order": 1,
+                    "item-name": "requirements brief",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "4": {
+                    "item-order": 1,
+                    "item-name": "module making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                },
+                "5": {
+                    "item-order": 1,
+                    "item-name": "presentation slide making",
+                    "is-completed": false,
+                    "item-details": "sprint-validasi-seleksi-jadwal",
+                    "notes": ""
+                }
+            }
+        }
+    }
+}
