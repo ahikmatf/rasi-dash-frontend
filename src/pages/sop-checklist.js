@@ -1,16 +1,15 @@
 import React, { Component } from 'react'
-import data from '../data/draft-flow.json'
 
-import ClassCard from '../components/ClassCard'
+import ProgressCard from '../components/ProgressCard'
+import TableSummary from '../components/TableSummary'
 
 export default class SOPChecklist extends Component {
   render() {
     return (
       <div>
-        SOPChecklist
-        <ClassCard/>
-        { console.log(data) }
+        <TableSummary />
       </div>
     )
+      
   }
 }

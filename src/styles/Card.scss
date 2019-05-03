@@ -1,0 +1,57 @@
+$production: rgb(231, 92, 157);
+$operation: #008299;
+$marketing: #3D722B;
+
+.card-production {
+    background-color: $production;
+    color: white;
+}
+
+.card-operation {
+    background-color: $operation;
+    color: white;
+}
+
+.card-marketing {
+    background-color: $marketing;
+    color: white;
+}
+
+
+.sop-item-card-header {
+    display: grid !important;
+    width: 100%;
+    grid-template-areas: "title switch switch switch switch switch switch";
+}
+
+.sop-item-card-title {
+    grid-area: title;
+    justify-self: center;
+    align-self: center;
+}
+
+.sop-item-card-switch {
+    grid-area: switch;
+    padding: 0.75rem 0.75rem 0.75rem 0;
+}
+
+.blink-production {
+    animation: blinker 1s linear infinite;
+    border: 4px solid $production;
+}
+
+.blink-operation {
+    animation: blinker 1s linear infinite;
+    border: 4px solid $operation;
+}
+
+.blink-marketing {
+    animation: blinker 2s linear infinite;
+    border: 4px solid $marketing;
+}
+
+@keyframes blinker {
+    50% {
+        border-color: white;
+    }
+}

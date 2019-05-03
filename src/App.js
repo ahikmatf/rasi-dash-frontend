@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Navbar from 'react-bulma-components/lib/components/navbar';
 import Home from './pages/home'
 import SOPChecklist from './pages/sop-checklist'
+import SOPDetails from './pages/sop-details'
+
 import './App.scss';
 
 class App extends Component {
@@ -46,7 +48,8 @@ class App extends Component {
 
           <body>
             <Route exact path="/" component={Home} />
-            <Route exact path="/sop-checklist" component={SOPChecklist} />            
+            <Route exact path="/sop-checklist" component={SOPChecklist} /> 
+            <Route path="/sop-checklist/classes/:id" component={SOPDetails} />           
           </body>
 
         </Router>
