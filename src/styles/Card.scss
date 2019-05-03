@@ -2,6 +2,10 @@ $production: rgb(231, 92, 157);
 $operation: #008299;
 $marketing: #3D722B;
 
+.card {
+    min-height: 13.8em;
+}
+
 .card-production {
     background-color: $production;
     color: white;

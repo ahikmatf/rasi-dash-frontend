@@ -72,7 +72,7 @@ export default class ClassCard extends Component {
                     size: 2,
                 }}
             >
-                <Card className={cardCSS}>
+                <Card className={`card ${cardCSS}`}>
                     <Card.Header>
                         <Media className="sop-item-card-header">
                             <Media.Item className="sop-item-card-title">
